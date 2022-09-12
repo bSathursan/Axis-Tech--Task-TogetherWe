@@ -1,3 +1,7 @@
 Axis-Tech--Task-TogetherWe
 
-git clone
+git clone https://github.com/bSathursan/Axis-Tech--Task-TogetherWe.git
+
+npm install
+
+npm start
