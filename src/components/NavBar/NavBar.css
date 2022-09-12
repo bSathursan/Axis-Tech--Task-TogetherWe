@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px 40px 0px;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

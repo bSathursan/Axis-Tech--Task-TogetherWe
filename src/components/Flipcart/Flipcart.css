@@ -1,0 +1,131 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  width: 356px;
+  height: 448px;
+  padding: 25px;
+  background: #ffffff;
+  box-shadow: 0px 2px 48px rgba(23, 23, 23, 0.1);
+  border-radius: 10px;
+}
+.cross-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.crossBtn-container {
+  width: 40px;
+  height: 40px;
+  background: #f4f4f4;
+  border: #f4f4f4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+}
+.left-arrow {
+  margin: 6px 10px 0px 8px;
+  color: #212326;
+  font-size: 25px;
+  transform: rotate(15deg);
+}
+.right-arrow {
+  margin-top: 6px;
+  margin-left: -14px;
+  color: #212326;
+  font-size: 25px;
+  transform: rotate(-15deg);
+}
+.para-container {
+  margin: 10px 100px 0px 20px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: #212326;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.label-container {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  color: #abadb5;
+}
+.input-container {
+  width: 22px;
+  height: 22px;
+  background: #f4f4f4;
+  margin-top: 5px;
+  accent-color: #abadb5;
+}
+.Paybutton-container {
+  margin-top: 10px;
+  padding: 15px 20px;
+  width: 336px;
+  height: 52px;
+  background: #f8c16f;
+  border: #f8c16f;
+  border-radius: 10px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.successImage-container {
+  margin: 28px 30px 0px 30px;
+}
+.successImage {
+  width: 293px;
+  height: 233px;
+}
+.successHead {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(144.41deg, #818be9 47.54%, #e47fda 91.07%),
+    #7bd2ad;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.successButton {
+  padding: 15px 20px;
+  width: 336px;
+  height: 52px;
+  background: #af93ff;
+  border: #af93ff;
+  border-radius: 10px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 48px;
+}

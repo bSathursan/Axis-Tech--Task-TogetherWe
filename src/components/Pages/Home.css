@@ -1,0 +1,54 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background: linear-gradient(144.41deg, #818be9 47.54%, #e47fda 91.07%);
+  border-radius: 20px;
+}
+
+.bannerImage {
+  height: 266px;
+  margin: 70px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 99px 0px 12px;
+}
+.headContainer {
+  font-family: "Circular Std";
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: -0.04em;
+}
+.paraContainer {
+  font-family: "Circular Std";
+  font-style: normal;
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+.buttonContainer {
+  padding: 15px 60px;
+  width: 211px;
+  height: 53px;
+  background: #FFFFFF;
+  box-shadow: 0px 19px 41px rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  border-radius: 10px;
+  border: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.04em;
+  color: #212326;
+  cursor: pointer;
+  margin-top: 10px;
+}
